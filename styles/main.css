@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 .banner {
   background-image: url('../images/BANNER.JPG');
   background-size: cover;
@@ -100,6 +104,7 @@ body {
 
 .nav-tabs-line .nav-link:hover {
   color: white;
+  cursor: pointer;
 }
 
 .nav-tabs-line .nav-link.active {
