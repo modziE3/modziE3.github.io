@@ -10,7 +10,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="profile-header">
+    <div>
         <div class="banner"></div>
         <div class="social-links mt-3">
             <a href="https://github.com/modziE3" target="_blank" class="me-3 text-decoration-none text-light">
@@ -38,13 +38,233 @@
         <div class="row">
         <div class="col-md-2 d-none d-md-block side-bar"></div>
         <div class="col-12 col-md-8 center-content">
-            WIP
+            <nav class="navbar navbar-expand-lg navbar-light navbar-shape">
+                <div class="container-fluid">
+                    <ul class="navbar-nav nav-tabs-line">
+                        <li class="nav-item"><a class="nav-link active" data-tab="home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" data-tab="projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" data-tab="education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" data-tab="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="tab-content">
+                <section id="home" class="tab-section active"> My name is Luke! I am an apsiring Game Developer/Mathematician/Software Developer. In 2025, I completed a BSc. double majoring in Computer Science & Mathematics. I studied for 3 years at the University of Canterbury, here I get involved in student-run clubs and communities. In 2025 I was elected an exec role in GameDev Society aswell as Math Society. I loving playing and making video games! I grew up on many farms all over Te Ika-a-Māui/The North Island, I proudly whakapapa to Ngāi Tahu. </section>
+                <section id="projects" class="tab-section">
+                    <div class="projects-grid">
+
+                        <div class="project-card" data-project="project1">
+                            <img src="./images/PFP.PNG" class="project-card-img">
+                            <div class="project-card-info">
+                                <h3 class="project-card-title">Tradie Me</h3>
+                                <p class="project-card-skills">Java • Spring Boot • Thymeleaf</p>
+                                <p class="project-card-desc">A year-long software engineering group project for making a large webapp.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-project="project2">
+                            <img src="./images/PFP.PNG" class="project-card-img">
+                            <div class="project-card-info">
+                                <h3 class="project-card-title">Rubix Cube Solver</h3>
+                                <p class="project-card-skills">Python • Rust • AI • ML</p>
+                                <p class="project-card-desc">A personal project which uses machine learning to guide a search algorthim. </p>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-project="project3">
+                            <img src="./images/PFP.PNG" class="project-card-img">
+                            <div class="project-card-info">
+                                <h3 class="project-card-title">Princess Pizza Parlor</h3>
+                                <p class="project-card-skills">Java • JavaFX • Automated Testing</p>
+                                <p class="project-card-desc">A tower-game where you try make a pizza given an order. Upgrade and repair towers to keep the pizza coming!</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-project="project4">
+                            <img src="./images/PFP.PNG" class="project-card-img">
+                            <div class="project-card-info">
+                                <h3 class="project-card-title">Autocatalytic Networks - Research Project</h3>
+                                <p class="project-card-skills">University of Canterbury</p>
+                                <p class="project-card-desc">This is an ongoing research project, I am writing paper supervised by a past lecturer of mine.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-project="project5">
+                            <img src="./images/PFP.PNG" class="project-card-img">
+                            <div class="project-card-info">
+                                <h3 class="project-card-title">Godot Game</h3>
+                                <p class="project-card-skills">Godot • C# • Game Dev</p>
+                                <p class="project-card-desc">Coming soon!</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-project="project6">
+                            <img src="./images/PFP.PNG" class="project-card-img">
+                            <div class="project-card-info">
+                                <h3 class="project-card-title">Minecraft Modding Projects</h3>
+                                <p class="project-card-skills">Java • Procedural Generation • AI Behaviour</p>
+                                <p class="project-card-desc">A set of modding projects I did where I added new creatures and environments to the game!</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="education" class="tab-section">
+                    <div class="timeline-entry">
+                        <div class="timeline">
+                            <h3>B.Sc. Computer Science & Mathematics</h3>
+                            <div class="d-flex">
+                                <h4>University of Canterbury</h4> 
+                                <span class="timeline-year">2023 - 2025</span>
+                            </div>
+                            <p>
+                                Studying full-time (including summers), currently in my third year (not including STAR).  
+                                Aspiring to pursue postgraduate study in mathematics and computer science.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline">
+                            <h3>NCEA Level 3</h3>
+                            <div class="d-flex">
+                                <h4>Feilding High School</h4> 
+                                <span class="timeline-year">2020 - 2022</span>
+                            </div>
+                            <p>Feilding High School was where I achieved all my NCEA qualifications. This school was where I discovered my passion for mathematics and computer science, thanks to wonderful teachers I was able to grow my skills in maths enough to be offered the opportunity to enrol in a University of Canterbury STAR course for first year maths (MATH199).  
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="tab-section">
+                    <h3>CONTACT ME</h3>
+                    <p>I'm always open to discussing projects, internships, and game development opportunities.</p>
+                    <p>📧Email: bluke136@gmail.com</p>
+                </section>
+                <section id="project1" class="tab-section project-detail">
+                    <button class="back-button" data-tab="projects">← Back to Projects</button>
+
+                    <div class="project-detail-content">
+                        <img src="./images/PFP.PNG" class="project-detail-img">
+
+                        <div class="project-detail-text">
+                            <h2>Tradie Me</h2>
+                            <p class="project-detail-skills">Java • Spring Boot • Thymeleaf</p>
+                            <p>
+                                description.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="project2" class="tab-section project-detail">
+                    <button class="back-button" data-tab="projects">← Back to Projects</button>
+
+                    <div class="project-detail-content">
+                        <img src="./images/PFP.PNG" class="project-detail-img">
+
+                        <div class="project-detail-text">
+                            <h2>Rubix Cube Solver</h2>
+                            <p class="project-detail-skills">Python • Rust • AI • ML</p>
+                            <p>
+                                description.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="project3" class="tab-section project-detail">
+                    <button class="back-button" data-tab="projects">← Back to Projects</button>
+
+                    <div class="project-detail-content">
+                        <img src="./images/PFP.PNG" class="project-detail-img">
+
+                        <div class="project-detail-text">
+                            <h2>Princess Pizza Parlor</h2>
+                            <p class="project-detail-skills">Java • JavaFX • Automated Testing</p>
+                            <p>
+                                description.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="project4" class="tab-section project-detail">
+                    <button class="back-button" data-tab="projects">← Back to Projects</button>
+
+                    <div class="project-detail-content">
+                        <img src="./images/PFP.PNG" class="project-detail-img">
+
+                        <div class="project-detail-text">
+                            <h2>Autocatalytic Networks - Research Project</h2>
+                            <p class="project-detail-skills">University of Canterbury</p>
+                            <p>
+                                description.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="project5" class="tab-section project-detail">
+                    <button class="back-button" data-tab="projects">← Back to Projects</button>
+
+                    <div class="project-detail-content">
+                        <img src="./images/PFP.PNG" class="project-detail-img">
+
+                        <div class="project-detail-text">
+                            <h2>Godot Game</h2>
+                            <p class="project-detail-skills">Godot • C# • Game Dev</p>
+                            <p>
+                                Coming soon!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="project6" class="tab-section project-detail">
+                    <button class="back-button" data-tab="projects">← Back to Projects</button>
+
+                    <div class="project-detail-content">
+                        <img src="./images/PFP.PNG" class="project-detail-img">
+
+                        <div class="project-detail-text">
+                            <h2>Minecraft Modding Projects</h2>
+                            <p class="project-detail-skills">Java • Procedural Generation • AI Behaviour</p>
+                            <p>
+                                description.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <p style="margin-top: 20px">&copy; 2025 Luke Burton. All rights reserved.</p>
         </div>
         <div class="col-md-2 d-none d-md-block side-bar"></div>
         </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const links = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.tab-section');
+
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                const target = link.dataset.tab;
+                links.forEach(l => l.classList.remove('active'));
+                sections.forEach(s => s.classList.remove('active'));
+                link.classList.add('active');
+                document.getElementById(target).classList.add('active');
+            });
+        });
+
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const projectId = card.dataset.project;
+                document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+                document.getElementById(projectId).classList.add('active');
+            });
+        });
+
+        document.querySelectorAll('.back-button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+                document.getElementById('projects').classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
-
