@@ -446,5 +446,29 @@ p {
     width: 10%;
     height: 10%;
   }
+  .medium {
+    min-width: 85%; height: 85%;
+  }
 }
 
+.visit-link {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  translate: 8px 5px;
+}
+
+.visit-link:hover {
+  text-decoration: underline;
+}
+.visit-link svg {
+  transform: translateY(1px);
+}
+
+.wrap-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
