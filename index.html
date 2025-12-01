@@ -38,9 +38,9 @@
         <div class="row">
         <div class="col-md-2 d-none d-md-block side-bar"></div>
         <div class="col-12 col-md-8 center-content">
-            <nav class="navbar navbar-expand-lg navbar-light navbar-shape">
+            <nav class="navbar navbar-light navbar-shape">
                 <div class="container-fluid">
-                    <ul class="navbar-nav nav-tabs-line">
+                    <ul class="navbar-nav nav-tabs-line custom-nav">
                         <li class="nav-item"><a class="nav-link active" data-tab="home">Home</a></li>
                         <li class="nav-item"><a class="nav-link" data-tab="projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" data-tab="education">Education</a></li>
@@ -48,7 +48,7 @@
                     </ul>
                 </div>
             </nav>
-
+            
             <div class="tab-content">
                 <section id="home" class="tab-section active">
                     <div class="timeline">
@@ -122,8 +122,7 @@
                                 <span class="timeline-year">2023 - 2025</span>
                             </div>
                             <p>
-                                Studying full-time (including summers), currently in my third year (not including STAR).  
-                                Aspiring to pursue postgraduate study in mathematics and computer science.
+                            Studied full-time from 2023-2025, finished courses for BSc. in the last semester of 2025. UC offered the STAR course which lead me to continue studying with them. I have thoroughly enjoyed my studies, so much so that I might pursue postgrad.
                             </p>
                         </div>
                     </div>
@@ -180,16 +179,37 @@
                     <button class="back-button" data-tab="projects">← Back to Projects</button>
 
                     <div class="project-detail-content">
-                        <img src="./images/princess.png" class="project-detail-img">
+                        <img src="./images/princess.png" class="project-detail-img smaller">
 
                         <div class="project-detail-text">
                             <h2>Princess Pizza Parlor</h2>
                             <p class="project-detail-skills">Java • JavaFX • Automated Testing</p>
-                            <p>
-                                description.
-                            </p>
                         </div>
                     </div>
+                    <article class="card" aria-label="Two by two responsive layout example">
+                        <div class="grid">
+                            <section class="p1 text" aria-labelledby="p1title">
+                                <p class="custom-p-right-stretch custom-stretch-up">
+                                In 2024 I took a software engineering course, part of the course was to develop a Tower/cart game in Java in teams of two. Our interpretation of the requirements was a pizza parlor game. We called it Princess Pizza Parlor and had a great time making it. Our graphics were done using JavaFX.  
+                                </p>
+                            </section>
+                            <figure class="img1 custom-img-right-stretch">
+                                <div class="img-wrap" role="img">
+                                <img src="./images/ppp-title.png">
+                                </div>
+                            </figure>
+                            <figure class="img2 custom-stretch-up-double">
+                                <div class="img-wrap" role="img">
+                                <img src="./images/ppp-game.png">
+                                </div>
+                            </figure>
+                            <section class="p2 text" aria-labelledby="p2title">
+                                <p class="custom-p-left-stretch custom-stretch-up">
+                                A problem I had when developing was figuring out how to simulate time passing and animation of objects. The way I solved this was by implementing a task scheduler to update “entities” (pizza bases, falling ingredients, ...). I was proud of this implementation as I used generalization to iterate through the entities of the game and uniquely update them.  Also, I made most of the artwork in MS paint. 
+                                </p>
+                            </section>
+                        </div>
+                    </article>
                 </section>
                 <section id="project4" class="tab-section project-detail">
                     <button class="back-button" data-tab="projects">← Back to Projects</button>
