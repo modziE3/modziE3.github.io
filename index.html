@@ -1,405 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Luke Burton</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Luke Burton — computational and applied mathematics, scientific computing, machine learning and software development.">
+  <title>Luke Burton | Computational & Applied Mathematics</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div>
-        <div class="banner"></div>
-        <div class="social-links mt-3">
-            <a href="https://github.com/modziE3" target="_blank" class="me-3 text-decoration-none text-light">
-                <i class="fa-brands fa-github me-1 d-inline"></i>
-                <span class="d-none d-md-inline">GitHub</span>
-            </a>
-            <a href="https://www.linkedin.com/in/luke-burton-762315307/" target="_blank" class="text-decoration-none text-light">
-                <i class="fa-brands fa-linkedin me-1 d-inline"></i>
-                <span class="d-none d-md-inline">LinkedIn</span>
-            </a>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">Computational & Applied Mathematics</p>
+        <h1 class="name">Luke Burton</h1>
+        <p class="hero-title">I use mathematics, computation and software to explore complex systems, simulations, machine learning and scientific problems.</p>
+        <div class="hero-links">
+          <a href="https://github.com/modziE3" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/luke-burton-762315307/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="mailto:bluke136@gmail.com"><i class="fa-regular fa-envelope"></i> Email</a>
         </div>
-        <div class="profile-info container">
-            <div class="avatar-wrapper">
-                <img class="avatar" src="./images/PFP.PNG" alt="Profile picture">
-            </div>
-            <div class="d-flex gap-3 mt-3">
-                <h1 class="name">Luke Burton</h1>
-                <p class="text-muted pronouns"> he/him</p>
-            </div>
-            <p class="title">Game Developer • Mathematician • Software Developer </p>
-        </div>
+      </div>
+      <div class="hero-profile">
+        <img class="avatar" src="./images/PFP.PNG" alt="Portrait of Luke Burton">
+        <p class="avatar-note">Master's student · University of Canterbury</p>
+      </div>
     </div>
+  </header>
 
-    <div class="container-fluid content">
-        <div class="row">
-        <div class="col-md-2 d-none d-md-block side-bar"></div>
-        <div class="col-12 col-md-8 center-content">
-            <nav class="navbar navbar-light navbar-shape">
-                <div class="container-fluid">
-                    <ul class="navbar-nav nav-tabs-line custom-nav">
-                        <li class="nav-item"><a class="nav-link active" data-tab="home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" data-tab="projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" data-tab="education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" data-tab="contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            
-            <div class="tab-content">
-                <section id="home" class="tab-section active">
-                    <div class="timeline">
-                        My name is Luke! I am an apsiring Game Developer/Mathematician/Software Developer. In 2025, I completed a BSc. double majoring in Computer Science & Mathematics. I studied for 3 years at the University of Canterbury, here I get involved in student-run clubs and communities. In 2025 I was elected an exec role in GameDev Society aswell as Math Society. I loving playing and making video games! I grew up on many farms all over Te Ika-a-Māui/The North Island, I proudly whakapapa to Ngāi Tahu. 
-                    </div>
-                </section>
-                <section id="projects" class="tab-section">
-                    <div class="projects-grid">
-
-                        <div class="project-card" data-project="project1">
-                            <img src="./images/TradieMeLogo.png" class="project-card-img">
-                            <div class="project-card-info">
-                                <h3 class="project-card-title">Tradie Me</h3>
-                                <p class="project-card-skills">Java • Spring Boot • Thymeleaf</p>
-                                <p class="project-card-desc">A year-long software engineering group project for making a large webapp.</p>
-                            </div>
-                        </div>
-
-                        <div class="project-card" data-project="project2">
-                            <img src="./images/Corner_Twist.jpg" class="project-card-img">
-                            <div class="project-card-info">
-                                <h3 class="project-card-title">Rubix Cube Solver</h3>
-                                <p class="project-card-skills">Python • Rust • AI • ML</p>
-                                <p class="project-card-desc">A personal project which uses machine learning to guide a search algorthim. </p>
-                            </div>
-                        </div>
-
-                        <div class="project-card" data-project="project3">
-                            <img src="./images/princess.png" class="project-card-img">
-                            <div class="project-card-info">
-                                <h3 class="project-card-title">Princess Pizza Parlor</h3>
-                                <p class="project-card-skills">Java • JavaFX • Automated Testing</p>
-                                <p class="project-card-desc">A tower-game where you try make a pizza given an order. Upgrade and repair towers to keep the pizza coming!</p>
-                            </div>
-                        </div>
-
-                        <div class="project-card" data-project="project4">
-                            <img src="./images/1RAF01.jpg" class="project-card-img">
-                            <div class="project-card-info">
-                                <h3 class="project-card-title">Autocatalytic Networks - Research Project</h3>
-                                <p class="project-card-skills">University of Canterbury</p>
-                                <p class="project-card-desc">WIP: This is an ongoing research project, I am writing paper supervised by a past lecturer of mine.</p>
-                            </div>
-                        </div>
-
-                        <div class="project-card" data-project="project5">
-                            <img src="./images/Godot_icon.svg.png" class="project-card-img">
-                            <div class="project-card-info">
-                                <h3 class="project-card-title">Puzzle Game - Godot</h3>
-                                <p class="project-card-skills">Godot • C# • Game Dev</p>
-                                <p class="project-card-desc">2D Coop horror/puzzle game made with Godot engine, scripts written in C#. Ongoing project.</p>
-                            </div>
-                        </div>
-
-                        <div class="project-card" data-project="project6">
-                            <img src="./images/ducks.png" class="project-card-img">
-                            <div class="project-card-info">
-                                <h3 class="project-card-title">Minecraft Modding Projects</h3>
-                                <p class="project-card-skills">Java • Procedural Generation • AI Behaviour</p>
-                                <p class="project-card-desc">A set of modding projects I did where I added new creatures and environments to the game!</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="education" class="tab-section">
-                    <div class="timeline-entry">
-                        <div class="timeline">
-                            <h3>B.Sc. Computer Science & Mathematics</h3>
-                            <div class="d-flex">
-                                <h4>University of Canterbury</h4> 
-                                <span class="timeline-year">2023 - 2025</span>
-                            </div>
-                            <p>
-                            Studied full-time from 2023-2025, finished courses for BSc. in the last semester of 2025. UC offered the STAR course which lead me to continue studying with them. I have thoroughly enjoyed my studies, so much so that I might pursue postgrad.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="timeline">
-                            <h3>NCEA Level 3</h3>
-                            <div class="d-flex">
-                                <h4>Feilding High School</h4> 
-                                <span class="timeline-year">2020 - 2022</span>
-                            </div>
-                            <p>Feilding High School was where I achieved all my NCEA qualifications. This school was where I discovered my passion for mathematics and computer science, thanks to wonderful teachers I was able to grow my skills in maths enough to be offered the opportunity to enrol in a University of Canterbury STAR course for first year maths (MATH199).  
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section id="contact" class="tab-section">
-                    <div class="timeline">
-                        <h3>CONTACT ME</h3>
-                        <p>I'm always open to discussing projects, internships, and game development opportunities.</p>
-                        <p>📧Email: bluke136@gmail.com</p>
-                    </div>
-                </section>
-                <section id="project1" class="tab-section project-detail">
-                    <button class="back-button" data-tab="projects">← 
-                        <p class="d-none d-md-inline">Back to Projects</p></button>
-
-                    <div class="project-detail-content">
-                        <img src="./images/TradieMeLogo.png" class="project-detail-img smaller">
-
-                        <div class="project-detail-text">
-                            <div class="wrap-cont">
-                                <h2>Tradie Me</h2>
-                                <a href="https://github.com/modziE3/SENG302-TradieMe" class="visit-link" target="_blank">
-                                    Visit codebase
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="white">
-                                        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-                                        <path d="M5 5h5V3H5c-1.1 0-2 .9-2 2v14c0 
-                                        1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5H5V5z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                            <p class="project-detail-skills">Java • Spring Boot • Thymeleaf</p>
-                        </div>
-                    </div>
-                    <article class="card" aria-label="Two by two responsive layout example">
-                        <div class="grid">
-                            <section class="p1 text" aria-labelledby="p1title">
-                                <p class="custom-p-right-stretch custom-stretch-up">
-                                Tradie Me was a yearlong team project developed as part of the SENG302 Software Engineering course. The goal was to design a web app that helps users manage property renovations by tracking renovation tasks, timelines, and progress based on a detailed set of requirements provided by a simulated “project owner.” As part of a multi-person development team, I've contributed to both backend and frontend development, using Java and Spring Boot for the backend and Thymeleaf for templating.                             
-                                </p>
-                            </section>
-                            <figure class="img1 custom-img-right-stretch">
-                                <div class="img-wrap medium" role="img">
-                                <img src="./images/jobs.png">
-                                </div>
-                            </figure>
-                            <figure class="img2 custom-stretch-up-double">
-                                <div class="img-wrap medium" role="img">
-                                <img src="./images/flow.png">
-                                </div>
-                            </figure>
-                            <section class="p2 text" aria-labelledby="p2title">
-                                <p class="custom-p-left-stretch custom-stretch-up">
-                                I've worked on database integration to support user data persistence and designed features for task and renovation management. We also learned a lot of skills in automated testing and quality assurance (Unit, integration, Cucumber, Playwright, etc..).The most valuable part of this project has been learning how to work effectively in a team of software developers within a simulated workplace environment. We follow the SCRUM framework with regular sprint planning, daily stand-ups, and retrospectives. Through this, I've gained practical experience in collaborative development, requirement analysis, time management, and communication.                                 
-                                </p>
-                            </section>
-                        </div>
-                    </article>
-                </section>
-                <section id="project2" class="tab-section project-detail">
-                    <button class="back-button" data-tab="projects">← 
-                        <p class="d-none d-md-inline">Back to Projects</p></button>
-
-                    <div class="project-detail-content">
-                        <img src="./images/Corner_Twist.jpg" class="project-detail-img">
-
-                        <div class="project-detail-text">
-                            <h2>Rubix Cube Solver</h2>
-                            <p class="project-detail-skills">Python • Rust • AI • ML</p>
-                            <p>
-                                Coming soon!
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section id="project3" class="tab-section project-detail">
-                    <button class="back-button" data-tab="projects">← 
-                        <p class="d-none d-md-inline">Back to Projects</p></button>
-
-                    <div class="project-detail-content">
-                        <img src="./images/princess.png" class="project-detail-img smaller">
-
-                        <div class="project-detail-text">
-                            <div class="wrap-cont">
-                                <h2>Princess Pizza Parlor</h2>
-                                <a href="https://github.com/modziE3/Seng201-princess-pizza-parlor" class="visit-link" target="_blank">
-                                    Visit codebase
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="white">
-                                        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-                                        <path d="M5 5h5V3H5c-1.1 0-2 .9-2 2v14c0 
-                                        1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5H5V5z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                            <p class="project-detail-skills">Java • JavaFX • Automated Testing</p>
-                        </div>
-                    </div>
-                    <article class="card" aria-label="Two by two responsive layout example">
-                        <div class="grid">
-                            <section class="p1 text" aria-labelledby="p1title">
-                                <p class="custom-p-right-stretch custom-stretch-up">
-                                In 2024 I took a software engineering course, part of the course was to develop a Tower/cart game in Java in teams of two. Our interpretation of the requirements was a pizza parlor game. We called it Princess Pizza Parlor and had a great time making it. Our graphics were done using JavaFX.  
-                                </p>
-                            </section>
-                            <figure class="img1 custom-img-right-stretch">
-                                <div class="img-wrap" role="img">
-                                <img src="./images/ppp-title.png">
-                                </div>
-                            </figure>
-                            <figure class="img2 custom-stretch-up-double">
-                                <div class="img-wrap" role="img">
-                                <img src="./images/ppp-game.png">
-                                </div>
-                            </figure>
-                            <section class="p2 text" aria-labelledby="p2title">
-                                <p class="custom-p-left-stretch custom-stretch-up">
-                                A problem I had when developing was figuring out how to simulate time passing and animation of objects. The way I solved this was by implementing a task scheduler to update “entities” (pizza bases, falling ingredients, ...). I was proud of this implementation as I used generalization to iterate through the entities of the game and uniquely update them.  Also, I made most of the artwork in MS paint. 
-                                </p>
-                            </section>
-                        </div>
-                    </article>
-                </section>
-                <section id="project4" class="tab-section project-detail">
-                    <button class="back-button" data-tab="projects">← 
-                        <p class="d-none d-md-inline">Back to Projects</p></button>
-
-                    <div class="project-detail-content">
-                        <img src="./images/1RAF01.jpg" class="project-detail-img">
-
-                        <div class="project-detail-text">
-                            <h2>Autocatalytic Networks - Research Project</h2>
-                            <p class="project-detail-skills">University of Canterbury</p>
-                            <p>
-                                Coming soon!
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section id="project5" class="tab-section project-detail">
-                    <button class="back-button" data-tab="projects">← 
-                        <p class="d-none d-md-inline">Back to Projects</p></button>
-
-                    <div class="project-detail-content">
-                        <img src="./images/Godot_icon.svg.png" class="project-detail-img smaller">
-
-                        <div class="project-detail-text">
-                            <div class="wrap-cont">
-                                <h2>Puzzle Game - Godot</h2>
-                                <!-- <a href="" class="visit-link" target="_blank">
-                                    Visit codebase
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="white">
-                                        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-                                        <path d="M5 5h5V3H5c-1.1 0-2 .9-2 2v14c0 
-                                        1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5H5V5z"/>
-                                    </svg>
-                                </a> -->
-                            </div>
-                            <p class="project-detail-skills">Godot • C# • Game Dev</p>
-                        </div>
-                    </div>
-                    <article class="card" aria-label="Two by two responsive layout example">
-                        <div class="grid">
-                            <section class="p1 text" aria-labelledby="p1title">
-                                <p class="custom-p-right-stretch custom-stretch-up">
-                                    This game is a work in progress, 2D multiplayer horror/puzzle game made in Godot engine. I write scripts in C#, which has been good because prior to starting this project I wasn't too familiar with the language, I am now fairly proficient. I work on this game in my free-time, I plan on finishing development in early February 2026. The image to the right of this text is a very early image of the base game.  
-                                </p>
-                            </section>
-                            <figure class="img1 custom-img-right-stretch">
-                                <div class="img-wrap medium" role="img">
-                                <img src="./images/puzzle_game_old_photo.png">
-                                </div>
-                            </figure>
-                            <figure class="img2 custom-stretch-up-double">
-                                <div class="img-wrap medium" role="img">
-                                <img src="./images/terrain_gen_concept_function.png">
-                                </div>
-                            </figure>
-                            <section class="p2 text" aria-labelledby="p2title">
-                                <p class="custom-p-left-stretch custom-stretch-up">
-                                    On this project, I work closely with an artist, together we design a unique and fun experience. Some things that I have worked on are; procedural terrain generation and AI behaviour. To the left of this text you can see the output of a program which demonstrates a concept for world borders (Though, this isn't used anymore). An interesting technique I have learned about is, the "dual grid system". This is a stratagey in which you offset the terrain tiles by half. This allows you to get smooth shapes in terrain tiles with very little assets. I have also learned about behaviour-tree architecture for NPC AI actions. From this I have implemented NPC wandering and enemies chasing the player. This project has been incredibly fun so far, it is one of those projects where I loose time working on. 
-                                </p>
-                            </section>
-                        </div>
-                    </article>
-                </section>
-                <section id="project6" class="tab-section project-detail">
-                    <button class="back-button" data-tab="projects">← 
-                        <p class="d-none d-md-inline">Back to Projects</p></button>
-
-                    <div class="project-detail-content">
-                        <img src="./images/ducks.png" class="project-detail-img smaller">
-
-                        <div class="project-detail-text">
-                            <div class="wrap-cont">
-                                <h2>Minecraft Modding Projects</h2>
-                                <a href="https://github.com/modziE3/Testmod" class="visit-link" target="_blank">
-                                    Visit codebase
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="white">
-                                        <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/>
-                                        <path d="M5 5h5V3H5c-1.1 0-2 .9-2 2v14c0 
-                                        1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-5h-2v5H5V5z"/>
-                                    </svg>
-                                </a>
-                            </div>
-                            <p class="project-detail-skills">Java • Procedural Generation • AI Behaviour</p>
-                        </div>
-                    </div>
-                    <article class="card" aria-label="Two by two responsive layout example">
-                        <div class="grid">
-                            <section class="p1 text" aria-labelledby="p1title">
-                                <p class="custom-p-right-stretch">
-                                During the summer of 2023-2024 I wanted to experiment with making modifications to the popular game Minecraft. I used the modding platform Fabric to do so. My main goal was to learn how to use Java. I was able to add things like Paradise ducks, custom moon dimension, terrain features like lakes, and lots more. Something that I enjoyed lots about making this was using my math knowledge to come up with random lake shapes for lakes in my custom dimension. 
-                                </p>
-                            </section>
-                            <figure class="img1 custom-img-right-stretch">
-                                <div class="img-wrap medium" role="img">
-                                <img src="./images/moon.png">
-                                </div>
-                            </figure>
-                            <figure class="img2 custom-stretch-up">
-                                <div class="img-wrap medium" role="img">
-                                <img src="./images/lake.png">
-                                </div>
-                            </figure>
-                            <section class="p2 text" aria-labelledby="p2title">
-                                <p class="custom-p-left-stretch custom-stretch-up">
-                                I had a fun time making these and I think I was able to make a somewhat realistic shape. I am proud of this because my method allowed me to get unique shapes, and the in-game implementation was very effective and computationally efficient. A skill I learned from this project was being able to navigate and understand other people's code. Minecraft has a large codebase, and I was able to understand and modify it where needed. It was also a decompiled codebase which made it harder, and there was little documentation.
-                                </p>
-                            </section>
-                        </div>
-                    </article>
-                </section>
-            </div>
-            <p style="margin-top: 20px">&copy; 2025 Luke Burton. All rights reserved.</p>
-        </div>
-        <div class="col-md-2 d-none d-md-block side-bar"></div>
-        </div>
+  <nav class="sticky-nav">
+    <div class="shell nav-inner">
+      <div class="brand">LB.</div>
+      <ul class="custom-nav">
+        <li><a class="nav-link active" data-tab="home">About</a></li>
+        <li><a class="nav-link" data-tab="projects">Work</a></li>
+        <li><a class="nav-link" data-tab="education">Education</a></li>
+        <li><a class="nav-link" data-tab="contact">Contact</a></li>
+      </ul>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        const links = document.querySelectorAll('.nav-link');
-        const sections = document.querySelectorAll('.tab-section');
+  </nav>
 
-        links.forEach(link => {
-            link.addEventListener('click', () => {
-                const target = link.dataset.tab;
-                links.forEach(l => l.classList.remove('active'));
-                sections.forEach(s => s.classList.remove('active'));
-                link.classList.add('active');
-                document.getElementById(target).classList.add('active');
-            });
-        });
+  <main class="shell">
+    <div class="tab-content">
+      <section id="home" class="tab-section active">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>Mathematics with something to build.</h2>
+        </div>
+        <div class="intro-grid">
+          <article class="panel">
+            <p class="lead">I'm a Master's student in Computational & Applied Mathematics at the University of Canterbury, with a background in mathematics and computer science.</p>
+            <p>I'm especially interested in mathematical modelling, machine learning, simulation, numerical methods and scientific computing. I enjoy problems where mathematics becomes something tangible: a model, an algorithm, a visualisation, a simulation or a piece of software.</p>
+            <p>Outside research and study, I enjoy game development, procedural generation and building software projects. I am also involved with the University of Canterbury's mathematics and game-development communities.</p>
+          </article>
+          <aside class="panel fact-list">
+            <div class="fact"><span>Currently</span><strong>Master of Mathematical Sciences</strong></div>
+            <div class="fact"><span>Focus</span><strong>Computational & Applied Mathematics</strong></div>
+            <div class="fact"><span>Interested in</span><strong>Modelling · ML · Simulation · Software</strong></div>
+            <div class="fact"><span>Based in</span><strong>Christchurch, Aotearoa New Zealand</strong></div>
+          </aside>
+        </div>
+      </section>
 
-        document.querySelectorAll('.project-card').forEach(card => {
-            card.addEventListener('click', () => {
-                const projectId = card.dataset.project;
-                document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
-                document.getElementById(projectId).classList.add('active');
-            });
-        });
+      <section id="projects" class="tab-section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2>Research, software & experiments.</h2>
+          <p>A selection of research, university and personal projects across mathematics, scientific computing, software engineering and games.</p>
+        </div>
 
-        document.querySelectorAll('.back-button').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
-                document.getElementById('projects').classList.add('active');
-            });
-        });
-    </script>
+        <div class="projects-grid">
+          <article class="project-card featured" data-project="project4">
+            <img src="./images/1RAF01.jpg" class="project-card-img" alt="Autocatalytic network visualisation">
+            <div class="project-card-info">
+              <p class="project-card-kicker">Research · Featured</p>
+              <h3 class="project-card-title">Autocatalytic Networks</h3>
+              <p class="project-card-skills">Python · Graph Theory · Computational Modelling</p>
+              <p class="project-card-desc">Computational research into the emergence and structure of autocatalytic reaction networks, supervised at the University of Canterbury.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project7">
+            <img src="./images/cfd.jpg" class="project-card-img" alt="Computational fluid dynamics simulation">
+            <div class="project-card-info">
+              <p class="project-card-kicker">Scientific computing</p>
+              <h3 class="project-card-title">Computational Fluid Dynamics</h3>
+              <p class="project-card-skills">Python · Navier–Stokes · Numerical PDEs</p>
+              <p class="project-card-desc">An incompressible fluid solver focused on visual quality, numerical stability and computational performance.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project1">
+            <img src="./images/TradieMeLogo.png" class="project-card-img" alt="Tradie Me project">
+            <div class="project-card-info">
+              <p class="project-card-kicker">Software engineering</p>
+              <h3 class="project-card-title">Tradie Me</h3>
+              <p class="project-card-skills">Java · Spring Boot · Thymeleaf</p>
+              <p class="project-card-desc">A full-stack property renovation platform developed by a six-person software engineering team.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project2">
+            <img src="./images/Corner_Twist.jpg" class="project-card-img" alt="Rubik's cube">
+            <div class="project-card-info">
+              <p class="project-card-kicker">AI experiment</p>
+              <h3 class="project-card-title">Rubik's Cube Solver</h3>
+              <p class="project-card-skills">Python · Rust · Search · Machine Learning</p>
+              <p class="project-card-desc">An experimental solver combining search algorithms with machine-learning-guided heuristics.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project5">
+            <img src="./images/Godot_icon.svg.png" class="project-card-img" alt="Godot project">
+            <div class="project-card-info">
+              <p class="project-card-kicker">Game development</p>
+              <h3 class="project-card-title">Co-op Puzzle Game</h3>
+              <p class="project-card-skills">Godot · C# · Procedural Generation · AI</p>
+              <p class="project-card-desc">A cooperative 2D horror/puzzle game exploring procedural worlds and behaviour-tree AI.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project3">
+            <img src="./images/princess.png" class="project-card-img" alt="Princess Pizza Parlor">
+            <div class="project-card-info">
+              <p class="project-card-kicker">Game development</p>
+              <h3 class="project-card-title">Princess Pizza Parlor</h3>
+              <p class="project-card-skills">Java · JavaFX · Automated Testing</p>
+              <p class="project-card-desc">A JavaFX game developed in a two-person team, with custom game logic, scheduling and testing.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="project6">
+            <img src="./images/ducks.png" class="project-card-img" alt="Minecraft modding project">
+            <div class="project-card-info">
+              <p class="project-card-kicker">Modding</p>
+              <h3 class="project-card-title">Minecraft Modding</h3>
+              <p class="project-card-skills">Java · Fabric · Procedural Generation · AI</p>
+              <p class="project-card-desc">Fabric mods exploring custom entities, dimensions, procedural terrain and game AI.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="tab-section">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Mathematics + computer science.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-entry">
+            <div class="timeline-year">2026 — Present</div>
+            <div>
+              <h3>Master of Mathematical Sciences</h3>
+              <h4>Computational & Applied Mathematics · University of Canterbury</h4>
+              <p>Postgraduate study focused on mathematical modelling, machine learning, numerical computation and applied mathematics, with a particular interest in scientific and biological systems.</p>
+            </div>
+          </article>
+          <article class="timeline-entry">
+            <div class="timeline-year">2023 — 2025</div>
+            <div>
+              <h3>Bachelor of Science</h3>
+              <h4>Mathematics & Computer Science · University of Canterbury</h4>
+              <p>Double major covering applied mathematics, algorithms, artificial intelligence, numerical methods, dynamical systems and software engineering.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="tab-section">
+        <article class="contact-card">
+          <div>
+            <p class="eyebrow" style="color:#53665f">Get in touch</p>
+            <h2>Interested in something mathematical, computational or slightly strange?</h2>
+            <p>I'm happy to talk about research, graduate opportunities, software projects, mathematical modelling, machine learning or game development.</p>
+          </div>
+          <a href="mailto:bluke136@gmail.com">bluke136@gmail.com →</a>
+        </article>
+      </section>
+
+      <!-- PROJECT DETAILS -->
+      <section id="project1" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero">
+          <div>
+            <p class="eyebrow">Software engineering</p>
+            <h2>Tradie Me</h2>
+            <p class="project-detail-skills">Java · Spring Boot · Thymeleaf · JPA · Testing</p>
+            <p class="project-summary">A year-long full-stack software engineering project developed in a six-person Scrum team.</p>
+            <a href="https://github.com/modziE3/SENG302-TradieMe" class="visit-link" target="_blank" rel="noopener">View code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <img src="./images/TradieMeLogo.png" class="project-detail-img" alt="Tradie Me">
+        </div>
+        <div class="project-body"><div class="project-body-grid">
+          <div><h3>The project</h3><p>Tradie Me was developed for SENG302 as a realistic team software project. We built a web application for managing renovation work, users, jobs and tradies against a substantial evolving requirements set.</p><p>I contributed across the frontend and backend, including database integration, persistence, search, profile and job features, and quality assurance.</p></div>
+          <div><h3>What I learned</h3><p>The most valuable part was working inside a structured development process: sprint planning, stand-ups, retrospectives, code review and collaborative requirement analysis. The project gave me practical experience maintaining a large shared codebase rather than only writing isolated assignments.</p><img src="./images/jobs.png" class="detail-image" alt="Tradie Me interface"></div>
+        </div></div>
+      </section>
+
+      <section id="project2" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero"><div><p class="eyebrow">AI experiment</p><h2>Rubik's Cube Solver</h2><p class="project-detail-skills">Python · Rust · Search · Machine Learning</p><p class="project-summary">A personal experiment exploring whether learned heuristics can guide classical search through the enormous state space of a Rubik's Cube.</p></div><img src="./images/Corner_Twist.jpg" class="project-detail-img" alt="Rubik's cube"></div>
+        <div class="project-body"><p>This project combines my interest in algorithms and machine learning. The goal is not simply to train a model to output moves, but to investigate how a learned estimate can make an explicit search procedure more effective.</p></div>
+      </section>
+
+      <section id="project3" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero"><div><p class="eyebrow">Game development</p><h2>Princess Pizza Parlor</h2><p class="project-detail-skills">Java · JavaFX · Automated Testing</p><p class="project-summary">A two-person Java game project built around a pizza-production interpretation of a tower/cart game specification.</p><a href="https://github.com/modziE3/Seng201-princess-pizza-parlor" class="visit-link" target="_blank" rel="noopener">View code <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><img src="./images/princess.png" class="project-detail-img" alt="Princess Pizza Parlor"></div>
+        <div class="project-body"><div class="project-body-grid"><div><h3>Implementation</h3><p>I built systems for time progression and entity animation using a task scheduler that updated game entities such as pizza bases and falling ingredients. The approach let different entity types share a common update mechanism while retaining their own behaviour.</p></div><div><h3>Also important</h3><p>The project was one of my first substantial collaborative software builds. It also gave me an excuse to make much of the artwork myself in MS Paint.</p><img src="./images/ppp-game.png" class="detail-image" alt="Princess Pizza Parlor gameplay"></div></div></div>
+      </section>
+
+      <section id="project4" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero"><div><p class="eyebrow">Research</p><h2>Autocatalytic Networks</h2><p class="project-detail-skills">Python · Graph Theory · Random Networks · Simulation</p><p class="project-summary">Computational research into autocatalytic reaction systems and the conditions under which self-sustaining network structures emerge.</p></div><img src="./images/1RAF01.jpg" class="project-detail-img" alt="Autocatalytic network"></div>
+        <div class="project-body"><div class="project-body-grid"><div><h3>Research question</h3><p>I investigated RAF-type autocatalytic networks in random catalytic reaction systems, including how their probability and structure change with the level of catalysis.</p><p>I implemented algorithms for identifying RAF structures and used large batches of simulations to study phase-transition-like behaviour and structural properties of the resulting networks.</p></div><div><h3>Why I enjoyed it</h3><p>The project sat directly between discrete mathematics, algorithms and computational science. It involved turning abstract mathematical definitions into efficient code, designing experiments, and interpreting patterns that only become visible at scale.</p></div></div></div>
+      </section>
+
+      <section id="project5" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero"><div><p class="eyebrow">Game development</p><h2>Co-op Puzzle Game</h2><p class="project-detail-skills">Godot · C# · Procedural Generation · Behaviour Trees</p><p class="project-summary">A cooperative 2D horror/puzzle project developed in Godot alongside an artist.</p></div><img src="./images/Godot_icon.svg.png" class="project-detail-img" alt="Godot project"></div>
+        <div class="project-body"><div class="project-body-grid"><div><h3>Systems work</h3><p>My work has included procedural terrain generation, world-shape experiments and NPC behaviour. The project also gave me a practical reason to become comfortable with C#.</p></div><div><h3>AI & generation</h3><p>I experimented with behaviour-tree architecture for NPC decision making, including wandering and player-chasing behaviours, as well as procedural approaches for creating more natural terrain boundaries.</p><img src="./images/terrain_gen_concept_function.png" class="detail-image" alt="Terrain generation experiment"></div></div></div>
+      </section>
+
+      <section id="project6" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero"><div><p class="eyebrow">Modding</p><h2>Minecraft Modding</h2><p class="project-detail-skills">Java · Fabric · Procedural Generation · AI Behaviour</p><p class="project-summary">A collection of Fabric modding experiments involving custom entities, terrain, dimensions and game systems.</p><a href="https://github.com/modziE3/Testmod" class="visit-link" target="_blank" rel="noopener">View code <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><img src="./images/ducks.png" class="project-detail-img" alt="Minecraft modding"></div>
+        <div class="project-body"><div class="project-body-grid"><div><h3>Learning through modding</h3><p>I originally started modding Minecraft to become more comfortable with Java. I added custom creatures, a moon dimension, terrain features such as generated lakes, and other experiments.</p></div><div><h3>Working in a large codebase</h3><p>One of the most useful skills I developed was learning to navigate and modify a large unfamiliar codebase with limited documentation. I particularly enjoyed using mathematics to design efficient procedural shapes for terrain generation.</p><img src="./images/lake.png" class="detail-image" alt="Procedural lake generation"></div></div></div>
+      </section>
+
+      <section id="project7" class="tab-section project-detail">
+        <button class="back-button" data-tab="projects">← Back to work</button>
+        <div class="project-detail-hero"><div><p class="eyebrow">Scientific computing</p><h2>Computational Fluid Dynamics</h2><p class="project-detail-skills">Python · Navier–Stokes · Numerical PDEs · Simulation</p><p class="project-summary">An incompressible fluid simulation project focused on visuals, speed and numerical stability.</p><a href="https://github.com/modziE3/math403-computational-fluid-dynamics" class="visit-link" target="_blank" rel="noopener">View code <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><img src="./images/cfd.jpg" class="project-detail-img" alt="CFD simulation"></div>
+        <div class="project-body"><div class="project-body-grid"><div><h3>Numerical method</h3><p>I implemented a 2D incompressible Navier–Stokes solver using operator splitting. The simulation combines semi-Lagrangian advection, implicit diffusion and a pressure projection step to enforce approximately divergence-free flow.</p></div><div><h3>Engineering the simulation</h3><p>A major focus was balancing stability, computational cost and visual quality. I experimented with timesteps, viscosity, iterative solvers and boundary treatment while producing animated dye-flow visualisations.</p></div></div></div>
+      </section>
+    </div>
+  </main>
+
+  <footer><div class="shell">© 2026 Luke Burton. Built with mathematics, code and probably too many tabs open.</div></footer>
+
+  <script>
+    const links = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('.tab-section');
+
+    function showTab(target) {
+      sections.forEach(section => section.classList.remove('active'));
+      links.forEach(link => link.classList.toggle('active', link.dataset.tab === target));
+      const section = document.getElementById(target);
+      if (section) section.classList.add('active');
+      window.scrollTo({ top: document.querySelector('.sticky-nav').offsetTop, behavior: 'smooth' });
+    }
+
+    links.forEach(link => link.addEventListener('click', () => showTab(link.dataset.tab)));
+    document.querySelectorAll('.project-card').forEach(card => card.addEventListener('click', () => showTab(card.dataset.project)));
+    document.querySelectorAll('.back-button').forEach(button => button.addEventListener('click', () => showTab('projects')));
+  </script>
 </body>
 </html>
